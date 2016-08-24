@@ -1,5 +1,7 @@
+@import 'https://fonts.googleapis.com/css?family=Lato';
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: Lato, Arial, sans-serif;
     font-size: 14px;
     color: #303030;
     margin: 0 auto;
@@ -51,9 +53,17 @@ ul#galeria {
 }
 
 ul#galeria li {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+@media screen and (min-width: 700px) {
+ul#galeria li {
+    margin: 0;
     display: inline-block;
     vertical-align: top;
     width: 33%;
+}
 }
 
 ul#galeria img {
