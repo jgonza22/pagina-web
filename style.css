@@ -13,14 +13,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header, footer {
-    background: yellowgreen;
+    background: #c0c0f0;
     position: relative;
     text-align: center;
     font-size: 1.2em;
 }
 
-header, header:before, header:after { border-bottom: 1px solid darkseagreen; }
-footer, footer:before, footer:after { border-top: 1px solid darkseagreen; }
+header, header:before, header:after { border-bottom: 1px solid #6060c0; }
+footer, footer:before, footer:after { border-top: 1px solid #6060c0; }
 
 footer {
     margin-top: 50px;
@@ -32,7 +32,7 @@ header:before, header:after, footer:before, footer:after {
     position: absolute;
     height: 100%;
     width: 600px;
-    background: yellowgreen;
+    background: #c0c0f0;
 }
 
 header:before, footer:before { left: 100%; }
@@ -72,7 +72,7 @@ ul#galeria img {
 }
 
 a {
-    color: mediumseagreen;
+    color: #003399;
     text-decoration: underline;
     font-weight: bold;
 }
