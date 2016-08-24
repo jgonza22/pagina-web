@@ -53,9 +53,17 @@ ul#galeria {
 }
 
 ul#galeria li {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+@media screen and (min-width: 700px) {
+ul#galeria li {
+    margin: 0;
     display: inline-block;
     vertical-align: top;
     width: 33%;
+}
 }
 
 ul#galeria img {
